@@ -8,6 +8,7 @@ function Clock({ hourRatio, minuteRatio, secondRatio }) {
     return (
 
         <div className="clock">
+
             <div className="hand hour" style={{ transform: `translate(-50%) rotate(${hourRatio * 360}deg)` }}></div>
             <div className="hand minute" style={{ transform: `translate(-50%) rotate(${minuteRatio * 360}deg)` }}  ></div>
             <div className="hand second" style={{ transform: `translate(-50%) rotate(${secondRatio * 360}deg)` }}  ></div>
@@ -24,6 +25,7 @@ function Clock({ hourRatio, minuteRatio, secondRatio }) {
             <div className="number number10"><div>10</div></div>
             <div className="number number11"><div>11</div></div>
             <div className="number number12"><div>12</div></div>
+            <h1>Abdukarim uxshabdimi<span>?</span></h1>
         </div>
 
     )
