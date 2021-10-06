@@ -4,18 +4,11 @@ import './App.css';
 import Clock from './Clock';
 
 class App extends Component {
-
-
-
   state = {
-
     secondRatio: 0,
     minuteRatio: 0,
     hourRatio: 0
   }
-
-
-
   componentDidMount() {
     setInterval(() => {
       this.setClock()
